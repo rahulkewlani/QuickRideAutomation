@@ -13,12 +13,17 @@ import com.quickride.resource_id.Property;
 import io.appium.java_client.android.AndroidDriver;
 
 public class SetupTest {
-static Properties prop = new Properties();
-
+	   public Properties getConfigProperties() throws IOException
+	   { 
+	       Properties prop = new Properties();
+		   InputStream input = new FileInputStream("src/resources/config.properties");
+	 	   prop.load(input);
+	 	
+		   return prop;
+	   }
     public AndroidDriver getAndroidDriver() throws IOException {
-    	  InputStream input = new FileInputStream("src/resources/config.properties");
-    	  prop.load(input);
-    	  
+    	 
+    	Properties prop=getConfigProperties();
         AndroidDriver driver = null;
 
         DesiredCapabilities capabilities = new DesiredCapabilities();

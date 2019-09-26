@@ -3,6 +3,7 @@ package com.quickride.testsuite;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
+import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.AfterTest;
@@ -12,6 +13,7 @@ import org.testng.annotations.Test;
 import com.quickride.resource_id.FindRideId;
 import com.quickride.resource_id.LoginId;
 import com.quickride.resource_id.PermissionId;
+import com.quickride.resource_id.Property;
 import com.quickride.service.SetupTest;
 
 import io.appium.java_client.android.AndroidDriver;
@@ -21,10 +23,12 @@ public class BookRide {
 	  SetupTest setup = new com.quickride.service.SetupTest();
 
 	    AndroidDriver driver;
+	    Properties property;
 	    
 	    @BeforeTest
 	    private void beforeTest() throws IOException {
 	        driver = setup.getAndroidDriver();
+	        property=setup.getConfigProperties();
 	    }
 	    
 	    //Quit driver after test
@@ -46,33 +50,38 @@ public class BookRide {
 	    {
 	    	driver.navigate().back();
 	    }
+	    
+   	   /* Book a ride 
+	    	* GET Permissions
+	        * GET Add Login Credentials
+	        * Add Booking Details 
+	   * */
 	    //Run your test case
 	    @Test
 	    public void bookRide() {
 	    	
-	    	 /* Book a ride 
-     	    	* GET Permissions
-	    	    * GET Add Login Credentials
-	    	    * Add Booking Details 
-	    	 * */
+
 	    	 getPermission();
 	    	 addLoginCredentials();
 	    	 addBookingDetails();
 	    	 
 	    }
+
+   	 /* Grant Permission for location and File/Media Access*/
 	    public void getPermission()
 	    {
-	    	 /* Grant Permission for location and File/Media Access*/
 	    	 clickOn(PermissionId.PERMISSION_ALLOW);
 	    	 clickOn(PermissionId.PERMISSION_ALLOW);    	 
 	    	
 	    }
+	    /* Add Login Credentials*/
+	    	
 	    public void addLoginCredentials()
 	    {
-	    	 /* Add Login Credentials*/
-   	    	 clickOn(LoginId.LOGIN_BUTTON);
-	    	 sendKeys(LoginId.LOGIN_PHONE_EDIT_TEXT,LoginId.LOGIN_ID);
-	    	 sendKeys(LoginId.LOGIN_PHONE_PWD_EDIT_TEXT,LoginId.LOGIN_PASSWORD);
+	    	
+	    	 clickOn(LoginId.LOGIN_BUTTON);
+	    	 sendKeys(LoginId.LOGIN_PHONE_EDIT_TEXT,property.getProperty(Property.LOGIN_ID));
+	    	 sendKeys(LoginId.LOGIN_PHONE_PWD_EDIT_TEXT,property.getProperty(Property.LOGIN_PASSWORD));
 	    	 getBack();
 	    	 clickOn(LoginId.LOGIN_BUTTON);
 	    	 

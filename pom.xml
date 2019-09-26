@@ -12,6 +12,9 @@
 		<appPackage>com.disha.quickride</appPackage>
 		<appActivity>com.disha.quickride.androidapp.startup.QRSplashActivity</appActivity>
 		<serverURL>http://127.0.0.1:4723/wd/hub</serverURL>
+		<loginId>9549595200</loginId>
+		<password>quickride@qwerty</password>
+
 	</properties>
 
 	<dependencies>
