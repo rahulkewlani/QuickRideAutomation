@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.quickride.testsuite.BookRide" duration-ms="91945" started-at="2019-09-26T17:05:24Z" finished-at="2019-09-26T17:06:56Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="91945" started-at="2019-09-26T17:05:24Z" finished-at="2019-09-26T17:06:56Z">
+      <class name="com.quickride.testsuite.BookRide">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.quickride.testsuite.BookRide@180bc464]" name="beforeTest" is-config="true" duration-ms="10330" started-at="2019-09-26T22:35:24Z" finished-at="2019-09-26T22:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="bookRide()[pri:0, instance:com.quickride.testsuite.BookRide@180bc464]" name="bookRide" duration-ms="79424" started-at="2019-09-26T22:35:35Z" finished-at="2019-09-26T22:36:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookRide -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.quickride.testsuite.BookRide@180bc464]" name="afterTest" is-config="true" duration-ms="2182" started-at="2019-09-26T22:36:54Z" finished-at="2019-09-26T22:36:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.quickride.testsuite.BookRide -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.quickride.testsuite.BookRide -->
+</testng-results>

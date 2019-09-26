@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [com.whatsapp.testsuite.Register]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.whatsapp.testsuite.Register">
+        <methods>
+          <include name="bookRide"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.whatsapp.testsuite.Register -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.whatsapp.testsuite.Register] -->

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="2" name="com.whatsapp.testsuite.Register" time="248.286" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.3+7-Ubuntu-1ubuntu218.04.1"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/rahul/Downloads/workdir/whatsapp-appium-automation-java"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="Register"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/rahul/Downloads/workdir/whatsapp-appium-automation-java"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.3+7-Ubuntu-1ubuntu218.04.1"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/home/rahul/eclipse-workspace1/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf13009853718296761198.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.18.0-15-generic"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="root"/>
+    <property name="java.class.path" value="/home/rahul/Downloads/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.13.0.20190716-1623/jars/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dtest=Register test"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="11.0.3"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/home/rahul/Downloads/workdir/whatsapp-appium-automation-java/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="com.whatsapp.testsuite.Register" name="bookRide" time="124.133">
+    <failure message="A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 122.04 seconds
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;rahul&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.18.0-15-generic&apos;, java.version: &apos;11.0.3&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.disha.quickride, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=3300d855ced2a389, platform=LINUX, deviceUDID=3300d855ced2a389, appActivity=com.disha.quickride.androidapp.startup.QRSplashActivity, desired={appPackage=com.disha.quickride, appActivity=com.disha.quickride.androidapp.startup.QRSplashActivity, platformVersion=8.1.0, platformName=Android, deviceName=Galaxy J7 Prime}, platformVersion=8.1.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=SM-G610F, platformName=Android, deviceManufacturer=samsung}]
+Session ID: 57f62c36-b25a-472a-89af-3b630fcf58f7" type="org.openqa.selenium.remote.SessionNotFoundException">org.openqa.selenium.remote.SessionNotFoundException: A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 122.04 seconds
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;rahul&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.18.0-15-generic&apos;, java.version: &apos;11.0.3&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.disha.quickride, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=3300d855ced2a389, platform=LINUX, deviceUDID=3300d855ced2a389, appActivity=com.disha.quickride.androidapp.startup.QRSplashActivity, desired={appPackage=com.disha.quickride, appActivity=com.disha.quickride.androidapp.startup.QRSplashActivity, platformVersion=8.1.0, platformName=Android, deviceName=Galaxy J7 Prime}, platformVersion=8.1.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=SM-G610F, platformName=Android, deviceManufacturer=samsung}]
+Session ID: 57f62c36-b25a-472a-89af-3b630fcf58f7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:162)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:27)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
+	at com.whatsapp.testsuite.Register.bookRide(Register.java:50)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@46f5f779
+</system-out>
+  </testcase>
+  <testcase classname="com.whatsapp.testsuite.Register" name="afterTest" time="124.153">
+    <failure message="A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;rahul&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.18.0-15-generic&apos;, java.version: &apos;11.0.3&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.disha.quickride, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=3300d855ced2a389, platform=LINUX, deviceUDID=3300d855ced2a389, appActivity=com.disha.quickride.androidapp.startup.QRSplashActivity, desired={appPackage=com.disha.quickride, appActivity=com.disha.quickride.androidapp.startup.QRSplashActivity, platformVersion=8.1.0, platformName=Android, deviceName=Galaxy J7 Prime}, platformVersion=8.1.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=SM-G610F, platformName=Android, deviceManufacturer=samsung}]
+Session ID: 57f62c36-b25a-472a-89af-3b630fcf58f7" type="org.openqa.selenium.remote.SessionNotFoundException">org.openqa.selenium.remote.SessionNotFoundException: A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;rahul&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.18.0-15-generic&apos;, java.version: &apos;11.0.3&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.disha.quickride, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=3300d855ced2a389, platform=LINUX, deviceUDID=3300d855ced2a389, appActivity=com.disha.quickride.androidapp.startup.QRSplashActivity, desired={appPackage=com.disha.quickride, appActivity=com.disha.quickride.androidapp.startup.QRSplashActivity, platformVersion=8.1.0, platformName=Android, deviceName=Galaxy J7 Prime}, platformVersion=8.1.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=SM-G610F, platformName=Android, deviceManufacturer=samsung}]
+Session ID: 57f62c36-b25a-472a-89af-3b630fcf58f7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:162)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:272)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:474)
+	at com.whatsapp.testsuite.Register.afterTest(Register.java:32)
+</failure>
+  </testcase>
+</testsuite>
